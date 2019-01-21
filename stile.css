@@ -1,0 +1,100 @@
+body
+{
+	margin: 0 auto;
+}
+
+ul
+{
+	list-style: none; 
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#UL_Contenitore
+{
+	width: 100%;
+}
+
+#UL_Contenitore>li
+{
+	display: block;
+	width: 100%;
+	vertical-align: top;}
+
+#UL_Contenitore>li:nth-child(1)
+{
+	padding: 0px;
+}
+
+#UL_Contenitore>li:nth-child(2)
+{
+	
+}
+
+#UL_Contenitore>li:nth-child(3)
+{
+	
+}
+
+#UL_Contenitore>li:nth-child(4)
+{
+	
+}
+
+#UL_Contenitore>li:nth-child(5)
+{
+	
+}
+.centro
+{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+				
+	width: 680px;
+	height: 360px;
+	line-height: 130px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -190px;
+	margin-left: -340px;
+}
+
+#ciao
+{
+	display: none;
+	font-size: 1em;
+	
+	transition: font-size 3s;
+}
+
+#demo
+{
+	font-size: 7.5em;
+	transition: color 0.20s;
+}
+
+.CartoonText
+{
+	font-family: 'Indie Flower', cursive;
+}
+
+.pausaPranzo
+{
+	color: rgb(165, 0, 0);
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+				
+	width: 680px;
+	height: 80px;
+	line-height: 40px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 60px;
+	margin-left: -340px;
+	
+	display: none;
+}
